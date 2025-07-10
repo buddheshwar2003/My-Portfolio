@@ -1,27 +1,5 @@
 import { motion } from "framer-motion";
-
-interface ExpData {
-  title: string;
-  platform: string;
-  duration: string;
-  description: string;
-}
-const experiences:ExpData[] = [
-  {
-    title: "Frontend Development (Self-Learning)",
-    platform: "YouTube, FreeCodeCamp, MDN",
-    duration: "2023 - Present",
-    description:
-      "Learned HTML, CSS, JavaScript, and React by building small projects like portfolio, to-do app, and weather app. Practiced using Tailwind CSS and GitHub.",
-  },
-  {
-    title: "React Portfolio Project",
-    platform: "Personal Project",
-    duration: "2024",
-    description:
-      "Created a modern and responsive portfolio website using React and Tailwind CSS to showcase my projects and skills. Implemented dark mode and routing.",
-  },
-];
+import { experiences } from "../Data";
 
 const Experience = () => {
   return (

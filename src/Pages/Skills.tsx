@@ -1,8 +1,14 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
+import type { JSX } from "react";
 
-const skills = [
+
+interface SkillData {
+  name: string;
+  icon: JSX.Element;
+}
+const skills: SkillData[] = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-6xl" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-6xl" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-400 text-6xl" /> },

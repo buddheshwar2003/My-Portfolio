@@ -1,31 +1,8 @@
 
 import { motion } from "framer-motion";
+import { educationData } from "../Data";
 
 const Education = () => {
-  const educationData = [
-    {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "Maryland Institute of Technology and Management Chorinda , Jamshedpur , Jharkhand",
-      year: "2021 – 2025",
-      details: [
-        "Pursing Graduation Degree ",
-        "Final Year Project:Student Assessment & Performance Predictor",
-        
-      ],
-    },
-    {
-      degree: "Higher Secondary (Class XII)",
-      institution: "Shyama Prasad Intermediate College Jamshedpur , Jharkhand",
-      year: "2019 – 2021",
-      details: ["JAC Board | 60%", "Stream: Science (Mathematics)"],
-    },
-    {
-      degree: "Secondary (Class X)",
-      institution: "Pallimangal High School Shantipur , Jamshedpur , Jharkhand",
-      year: "2015 – 2017",
-      details: ["JAC Board | 83.80%"],
-    },
-  ];
 
   return (
     <section className="h-screen flex items-center justify-center flex-col bg-gray-100 dark:bg-gray-900 py-12 px-4 md:px-8 overflow-scroll scrollbar-none">

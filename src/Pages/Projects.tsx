@@ -1,58 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import portfolioImage from "../assets/pages/image.png";
 import { motion } from "framer-motion";
-
-const projects = [
-  {
-    title: "Personal Portfolio",
-    description: "A modern portfolio with responsive design",
-    image: portfolioImage,
-    languages: ["React", "Tailwind CSS", "TypeScript"],
-    github: "https://github.com/your-username/palindrome-checker",
-    live: "https://your-live-demo1.vercel.app",
-  },
-  {
-    title: "Task Tracker",
-    description: "Track your tasks with ease using CRUD functionality.",
-    image: "https://via.placeholder.com/600x400?text=Task+Tracker",
-    languages: ["React", "JavaScript", "CSS"],
-    github: "https://github.com/your-username/task-tracker",
-    live: "https://your-live-demo2.vercel.app",
-  },
-  {
-    title: "Weather App",
-    description: "Get real-time weather data using OpenWeather API.",
-    image: "https://via.placeholder.com/600x400?text=Weather+App",
-    languages: ["React", "API", "Tailwind"],
-    github: "https://github.com/your-username/weather-app",
-    live: "https://your-live-demo3.vercel.app",
-  },
-  {
-    title: "Blog Platform",
-    description: "A markdown-supported blogging platform.",
-    image: "https://via.placeholder.com/600x400?text=Blog+Platform",
-    languages: ["Next.js", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com/your-username/blog-platform",
-    live: "https://your-live-demo4.vercel.app",
-  },
-  {
-    title: "Portfolio Site",
-    description: "Personal portfolio with animations and dark mode.",
-    image: "https://via.placeholder.com/600x400?text=Portfolio+Site",
-    languages: ["React", "Framer Motion", "Tailwind CSS"],
-    github: "https://github.com/your-username/portfolio-site",
-    live: "https://your-live-demo5.vercel.app",
-  },
-  {
-    title: "Quiz App",
-    description: "Interactive quiz app with real-time score tracking.",
-    image: "https://via.placeholder.com/600x400?text=Quiz+App",
-    languages: ["React", "JavaScript", "Bootstrap"],
-    github: "https://github.com/your-username/quiz-app",
-    live: "https://your-live-demo6.vercel.app",
-  },
-];
+import { projects } from "../Data";
 
 const Projects = () => {
   return (

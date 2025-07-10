@@ -29,26 +29,44 @@ Follow these steps to run the project locally:
 
 ````bash
 git clone https://github.com/yourusername/your-portfolio.git
-Navigate to the project directory
 
 cd your-portfolio
 
 npm install
 
 npm run dev
-# or
-npm start
 
-```
+````
+
 Your app will be running at http://localhost:5173//
 
 Make sure you have Node.js and npm installed on your system.
+
+
+## 🧩 Tailwind CSS Setup
+
+Replace this with your tailwind.config.js file.
+
+````bash
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class", // enable class-based dark mode
+  theme: {
+    extend: {},
+  },
+  plugins: [require("tailwind-scrollbar")],
+}
+
+````
 
 ## 📸 Preview
 
 ![Portfolio Screenshot](./src/assets/pages/image.png)
 
-> *(Include a screenshot image of your portfolio or a demo gif here)*
 
 ## 🔗 Live Demo
 
