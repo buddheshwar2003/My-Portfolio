@@ -20,6 +20,7 @@ I'm a passionate developer focused on building clean, efficient, and interactive
 - **TypeScript** _(optional if you're using it)_
 - **Tailwind CSS** or **CSS Modules**
 - **React Icons**
+- **React Router**
 
 📦 Installation
 
