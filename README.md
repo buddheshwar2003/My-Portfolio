@@ -39,7 +39,7 @@ npm run dev
 # or
 npm start
 
-```
+````
 Your app will be running at http://localhost:5173//
 
 Make sure you have Node.js and npm installed on your system.
