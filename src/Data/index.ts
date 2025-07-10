@@ -123,7 +123,7 @@ export const projects: ProjectData[] = [
   },
   {
     title: "Fitness Tracker UI",
-    description: "Interactive quiz app with real-time score tracking.",
+    description: "Interactive Fitness Tracker.",
     image: "https://via.placeholder.com/600x400?text=Quiz+App",
     languages: ["React Native", "Native Wind", "TypeScript"],
     github: "https://github.com/your-username/quiz-app",
