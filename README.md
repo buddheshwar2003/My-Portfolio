@@ -42,9 +42,10 @@ Your app will be running at http://localhost:5173//
 
 Make sure you have Node.js and npm installed on your system.
 
+
 ## 🧩 Tailwind CSS Setup
 
-Replace this with your tailwind.config.js
+Replace this with your tailwind.config.js file.
 
 ````bash
 
@@ -66,7 +67,6 @@ module.exports = {
 
 ![Portfolio Screenshot](./src/assets/pages/image.png)
 
-> *(Include a screenshot image of your portfolio or a demo gif here)*
 
 ## 🔗 Live Demo
 
