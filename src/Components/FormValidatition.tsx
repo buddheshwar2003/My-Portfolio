@@ -95,7 +95,7 @@ const FormValidation = () => {
               <span>
                 Phone:{" "}
                 <a
-                  href="tel:+917004127767"
+                  href="tel:+916203459703"
                   className="text-indigo-500 hover:underline"
                   target="_blank"
                 >
