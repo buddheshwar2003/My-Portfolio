@@ -92,6 +92,7 @@ const Nav = () => {
           {navLinks.map((navbar, index) => (
             <li key={index}>
               <NavLink
+              onClick={handleMobNav}
                 to={navbar.href}
                 className={({ isActive }) =>
                   `text-xl block transition-all ${
