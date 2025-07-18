@@ -99,7 +99,7 @@ const FormValidation = () => {
                   className="text-indigo-500 hover:underline"
                   target="_blank"
                 >
-                  +91 70041 27767
+                  +91 62034 59703
                 </a>
               </span>
             </div>
