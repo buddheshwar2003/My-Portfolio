@@ -95,8 +95,8 @@ export const projects: ProjectData[] = [
     description: "Track your tasks with ease using CRUD functionality.",
     image: weatherApp,
     languages: ["React", "TypeScript", "Tailwind CSS" , "API"],
-    github: "https://github.com/your-username/task-tracker",
-    live: "https://your-live-demo2.vercel.app",
+    github: "https://github.com/buddheshwar2003/Weather-Api-Website",
+    live: "https://weather-api-website-one.vercel.app/",
   },
   {
     title: "Simple E-Commerce UI",
