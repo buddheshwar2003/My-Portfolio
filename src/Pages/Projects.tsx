@@ -40,11 +40,11 @@ const Projects = () => {
             </div>
 
             <div className="p-5 flex flex-col justify-center ">
-              <div>
+              <div className="flex flex-col justify-center items-center">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                   {project.title}
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                <p className="text-gray-700 dark:text-gray-300 mb-4 text-center">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2">

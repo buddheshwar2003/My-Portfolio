@@ -1,4 +1,5 @@
-import portfolioImage from "../assets/pages/image.png";
+import portfolioImage from "../assets/pages/portfolio.png";
+import weatherApp from "../assets/pages/weatherApp.png"
 
 interface NavForm {
   href: string;
@@ -83,17 +84,17 @@ interface ProjectData {
 export const projects: ProjectData[] = [
   {
     title: "Personal Portfolio",
-    description: "A modern portfolio with responsive design",
+    description: "A modern portfolio with responsive design for any type of devices",
     image: portfolioImage,
-    languages: ["React", "Tailwind CSS", "TypeScript"],
-    github: "https://github.com/your-username/palindrome-checker",
-    live: "https://your-live-demo1.vercel.app",
+    languages: ["React", "Tailwind CSS", "TypeScript", "Router"],
+    github: "https://github.com/buddheshwar2003/My-Portfolio",
+    live: "https://my-portfolio-buddheshwar2003.vercel.app",
   },
   {
     title: "Weather Forcast Dashboard",
     description: "Track your tasks with ease using CRUD functionality.",
-    image: "https://via.placeholder.com/600x400?text=Task+Tracker",
-    languages: ["React", "JavaScript", "CSS" , "API"],
+    image: weatherApp,
+    languages: ["React", "TypeScript", "Tailwind CSS" , "API"],
     github: "https://github.com/your-username/task-tracker",
     live: "https://your-live-demo2.vercel.app",
   },
